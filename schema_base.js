@@ -19,7 +19,7 @@ const baseFields = [
     name: 'created_at',
     type: 'timestamp with time zone'
   }
-]
+];
 
 const expectedFields = [
   ...baseFields,
@@ -47,9 +47,9 @@ const expectedFields = [
     name: 'enabled',
     type: 'boolean'
   }
-]
+];
 
 module.exports = {
   baseFields,
   expectedFields
-}
+};
