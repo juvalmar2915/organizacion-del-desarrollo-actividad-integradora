@@ -2,7 +2,10 @@ env:
   browser: true
   commonjs: true
   es2021: true
-extends: standard
+  jest: true
+  node: true
+extends:
+  - eslint:recommended
 parserOptions:
   ecmaVersion: latest
 rules: {}
